@@ -25,7 +25,7 @@
 		<java.version>1.8</java.version>
 		<log4j.version>1.3.8.RELEASE</log4j.version>
 		<mybatis.version>1.3.2</mybatis.version>
-		<pagehelper.version>1.1.2</pagehelper.version>
+		<pagehelper.version>1.2.3</pagehelper.version>
 		<mybatisplus-spring-boot-starter.version>1.0.4</mybatisplus-spring-boot-starter.version>
 		<mybatisplus.version>2.1.0</mybatisplus.version>
 		<druid.version>1.1.3</druid.version>
@@ -192,11 +192,7 @@
 
 		<!--ehcache start-->
 		<dependency>
-			<groupId>javax.cache</groupId>
-			<artifactId>cache-api</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.ehcache</groupId>
+			<groupId>net.sf.ehcache</groupId>
 			<artifactId>ehcache</artifactId>
 		</dependency>
 		<!--ehcache end-->
